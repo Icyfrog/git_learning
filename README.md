@@ -28,8 +28,8 @@ git push是将本地库中的最新信息发送给远程库。
 
 ## 删除操作：
 ```
-git rm filename           Done
-git rm -rf name           Done
+git rm filename           Delete one file Done
+git rm -rf name           Delete one wholefolder Done
 git add -A
 git push
 ```
