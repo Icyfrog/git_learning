@@ -18,12 +18,12 @@ git push -u origin master
 忽略文件:
 ```
 git rm --cached <PATH/fileName>
-git commit -m'备注' <PATH/fileName>
+git commit -m'备注' <PATH/fileName>         // 这句commit不知道有啥用
 git push
 ```
 忽略文件夹所以文件：
 ```
 git rm --cached -r <dirname>
-git commit -m'备注' <dirname/file....>
+git commit -m'备注' <dirname/file....>       // 这句commit不知道有啥用
 git push
 ```
