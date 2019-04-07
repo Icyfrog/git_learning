@@ -1,6 +1,4 @@
-"# git_learning" 
-
-# 大概用来记录下怎么在vscode终端用git
+# 大概用来记录下怎么在终端用git
 
 
 ## 下面是github自动推荐的初始化操作
@@ -23,12 +21,30 @@ git commit操作的是本地库，git push操作的是远程库。
 git commit是将本地修改过的文件提交到本地库中。
 git push是将本地库中的最新信息发送给远程库。
 ```
+## 分支操作
+```
+查看本地分支 git branch
+查看远程分支 git branch -a
+删除本地分支 git branch -d 分支名
+删除远程分支 git push origin -d 分支名
+本地创建并切换到分支 git checkout -b 分支名
+本地创建分支 git branch 分支名  目前在那个分支，提交的时候就会在哪个分支上
+从某分支下载 git clone xxx地址 -b 分支名
+
+```
 ## 删除操作：
 ```
 git rm filename           Delete one file 
 git rm -rf name           Delete one whole folder 
 git add -A
 git push
+```
+## 标签 tag
+```
+查看标签 git tag
+创建标签 git tag -a v1.4 -m 'my version 1.4' 
+删除标签 git tag -d v1.4
+提交标签 git push origin v1.5
 ```
 ## git忽略已经被提交的文件，解除track
 忽略文件:
