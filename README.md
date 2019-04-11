@@ -26,7 +26,10 @@ git add . 将全部改动都track
 在本地新建一个分支： git branch newBranch
 切换到你的新分支: git checkout newBranch
 创建并切换到新分支： git checkout -b newBranch
+
 将新分支发布在github上： git push origin newBranch（如果新建分支后，有更改的话，还要add，commit）
+在新分支上工作，以后再提交之前需要设置upstream：git push --set-upstream origin newBranch
+
 在本地删除一个分支： git branch -d newBranch
 在github远程端删除一个分支：git push origin -d 分支名
 从某分支下载 git clone xxx地址 -b newBranch
