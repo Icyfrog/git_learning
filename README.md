@@ -45,8 +45,10 @@ git push -u origin master
 - git branch --set-upstream dev origin/dev
 - git config --global push.default matching
 
-
 ```
+## Fork了别人的repo之后的更新与提交代码
+[check here ](https://blog.csdn.net/qq1332479771/article/details/56087333) 来看具体操作
+
 ## 删除操作：
 ```
 git rm filename           Delete one file 
