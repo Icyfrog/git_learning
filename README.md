@@ -36,7 +36,8 @@ git push -u origin master
 - 将新分支发布在github上： git push origin newBranch（如果新建分支后，有更改的话，还要add，commit）
 - 在新分支上工作，以后再提交之前需要设置upstream：git push --set-upstream origin newBranch
 
-- 创建的分支push到远端之后，会有将此分支和master提示merge的消息，关闭方法：1. 把默认的主分支弄成嘴新的 而不是master，2.先点这个pull request，然后在后面close掉这个merge
+- 创建的分支push到远端之后，会有将此分支和master提示merge的消息，关闭方法：1. 把默认的主分支弄成嘴新的 而不是master，
+2.先点这个pull request，然后在后面close掉这个merge
 
 - 在本地删除一个分支： git branch -d newBranch
 - 在github远程端删除一个分支：git push origin -d 分支名
